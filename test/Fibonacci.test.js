@@ -1,5 +1,5 @@
 var assert = require('chai').assert;
-var Fibonacci = require("../fibonacci");
+var Fibonacci = require('../src/fibonacci');
 
 function add() {
   return Array.prototype.slice.call(arguments).reduce(function(prev, curr) {

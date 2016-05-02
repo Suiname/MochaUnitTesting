@@ -1,6 +1,7 @@
 TESTS=$(shell find test/ -name "*.test.js")
 MOCHA=node_modules/.bin/mocha
 _MOCHA=node_modules/.bin/_mocha
+ISTANBUL=node_modules/.bin/istanbul
 
 xunit:
 	@# check if reports folder exists, if not create it
