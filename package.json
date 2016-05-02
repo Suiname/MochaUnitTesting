@@ -1,0 +1,28 @@
+{
+  "name": "mochaunittesting",
+  "version": "1.0.0",
+  "description": "",
+  "main": "fibonacci.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "mocha": "^2.4.5"
+  },
+  "devDependencies": {
+    "xunit-file": "0.0.9"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Suiname/MochaUnitTesting.git"
+  },
+  "author": "JT",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Suiname/MochaUnitTesting/issues"
+  },
+  "homepage": "https://github.com/Suiname/MochaUnitTesting#readme"
+}

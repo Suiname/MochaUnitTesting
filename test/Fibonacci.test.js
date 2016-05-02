@@ -22,13 +22,11 @@ describe('add()', function() {
   });
 });
 
-describe('Fibonacci', function(){
-  describe('#FibNumber()', function(){
-    it('should return 3 when n=4', function(){
-      assert.equal(3, Fibonacci(4));
-    });
-    it('should return 55 when n=10', function(){
-      assert.equal(55, Fibonacci(10));
-    });
+describe('Fibonacci()', function(){
+  it('should return 3 when n=4', function(){
+    assert.equal(3, Fibonacci(4));
+  });
+  it('should return 55 when n=10', function(){
+    assert.equal(55, Fibonacci(10));
   });
 });
