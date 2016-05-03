@@ -13,11 +13,22 @@
     "istanbul": "^0.4.3",
     "mocha": "^2.4.5",
     "mocha-istanbul": "^0.2.0",
+    "mocha-json-report": "0.0.2",
+    "mocha-sonar-generic-test-coverage-file": "0.0.3",
     "mocha-sonar-reporter": "^0.1.5",
+    "remove": "^0.1.5",
     "xunit-file": "0.0.9"
   },
   "scripts": {
-    "test": "mocha"
+    "test": "mocha -R mocha-sonar-reporter"
+  },
+  "config": {
+    "mocha-sonar-reporter": {
+      "classname": "Test",
+      "outputfile": "reports/TEST-all.xml",
+      "testdir": "test",
+      "classnameSuffix": ".test.js"
+    }
   },
   "repository": {
     "type": "git",

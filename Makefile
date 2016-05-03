@@ -6,7 +6,7 @@ ISTANBUL=node_modules/.bin/istanbul
 xunit:
 	@# check if reports folder exists, if not create it
 	@test -d reports || mkdir reports
-	XUNIT_FILE="reports/TESTS-xunit.xml" $(MOCHA) -R xunit-file $(TESTS)
+	GUNIT_FILE="./reports/TESTS-gunit.xml" $(MOCHA) -R mocha-sonar-generic-test-coverage-file $(TESTS)
 
 coverage:
 	@# check if reports folder exists, if not create it
